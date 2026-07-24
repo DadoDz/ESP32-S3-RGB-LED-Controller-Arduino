@@ -1,6 +1,6 @@
 # ESP32-S3 RGB LED Controller (Arduino)
 
-Arduino IDE firmware that drives a WS2812 RGB LED on an ESP32-S3, controlled remotely via a Firebase Realtime Database node. Companion to the [ESP-IDF version](https://github.com/DadoDz/ESP32-S3-RGB-LED-Controller) — same concept, simpler code: one sketch file, no RTOS tasks, just `millis()` timing.
+Arduino IDE firmware that drives a WS2812 RGB LED on an ESP32-S3, controlled remotely via a Firebase Realtime Database node. Companion to the [ESP-IDF version](https://github.com/DadoDz/ESP32-S3-RGB-LED-Controller). Same concept, simpler code: one sketch file, no RTOS tasks, just `millis()` timing.
 
 ```
 Firebase Realtime Database  <-- polled every 5s -->  ESP32-S3  --->  WS2812 LED
